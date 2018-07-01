@@ -1,0 +1,76 @@
+ <html>
+ <head>
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+
+ <script src="abas-acessiveis.js">
+</script>
+
+<title>
+ Conteúdos em abas com acessibilidade
+</title>
+ </head>
+ <body>
+<h2>
+Conteúdo em Abas
+</h2>
+<ul role="tablist">
+<li tabindex="0" role="tab" aria-controls="guia1" id="aba1" aria-selected="true">
+Acessibilidade
+</li>
+<li tabindex="0" role="tab" aria-controls="guia2" id="aba2" aria-selected="false">
+HTML5
+</li>
+<li tabindex="0" role="tab" aria-controls="guia3" id="aba3" aria-selected="false">
+CSS 3
+</li>
+<li tabindex="0" role="tab" aria-controls="guia4" id="aba3" aria-selected="false">
+Way-aria
+</li>
+<li tabindex="0" role="tab" aria-controls="guia5" id="aba3" aria-selected="false">
+JQuery
+</li>
+</ul>
+
+<div role="tabpanel" id="guia1" aria-hidden="false" aria-labelledby="aba1">
+<h2 tabindex="0">
+titulo 1
+</h2>
+<p>
+1. Todo o conteúdo aqui dentro
+</p>
+</div>
+<div role="tabpanel" id="guia2" aria-hidden="true" aria-labelledby="aba2">
+<h2 tabindex="0">
+titulo 2
+</h2>
+<p>
+2. Todo o conteúdo aqui dentro
+</p>
+</div>
+<div role="tabpanel" id="guia3" aria-hidden="true" aria-labelledby="aba3">
+<h2 tabindex="0">
+titulo 3
+</h2>
+<p>
+3. Todo o conteúdo aqui dentro
+</p>
+</div>
+<div role="tabpanel" id="guia4" aria-hidden="true" aria-labelledby="aba3">
+<h2 tabindex="0">
+titulo 4
+</h2>
+<p>
+4. Todo o conteúdo aqui dentro
+</p>
+</div>
+<div role="tabpanel" id="guia5" aria-hidden="true" aria-labelledby="aba3">
+<h2 tabindex="0">
+titulo 5
+</h2>
+<p>
+5. Todo o conteúdo aqui dentro
+</p>
+</div>
+</body>
+</html>
